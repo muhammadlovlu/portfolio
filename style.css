@@ -1,0 +1,8 @@
+/* google fonts start*/
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Pirata+One&family=Staatliches&family=Yellowtail&display=swap');
+/*google font end*/
+h1{
+    font-family: 'Audiowide';    
+    
+    font-size:40px;
+}
