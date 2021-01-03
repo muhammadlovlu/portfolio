@@ -1,8 +1,19 @@
 /* google fonts start*/
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Pirata+One&family=Staatliches&family=Yellowtail&display=swap');
 /*google font end*/
+body{
+    font-family:'Staatliches';
+    font-size:30px;
+    background-color: #e1e2e2;
+}
 h1{
     font-family: 'Audiowide';    
     
     font-size:40px;
+}
+#lovlu {
+    color: #F67280;
+}
+#slogan {
+    font-size:34px;
 }
