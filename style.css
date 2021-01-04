@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Pirata+One&family=Staatliches&family=Yellowtail&display=swap');
 /*google font end*/
 body{
+    margin: 10x auto 20px auto;
+}
+    body{
+    margin:0px;
+    padding:0px;
     font-family:'Staatliches';
     font-size:30px;
     background-color: #e1e2e2;
@@ -9,6 +14,32 @@ body{
 h1{
     font-family: 'Audiowide';    
     font-size:50px;
+}
+p{
+    font-family:'Audiowide';
+    font-size: 22px;
+}
+.section-one{
+    width:100%;
+    padding:10px;
+    height:350px;
+    
+}
+.more-info {
+    width:450px;
+    text-align: justify;
+    font-family: 'Staatliches';
+}
+.content-part {
+    width:50%;
+    float: left;
+}
+.image-part {
+    width:50%;
+    float: left;
+}
+.image-part img {
+    width: 50%;
 }
 #lovlu {
     color: #F67280;
