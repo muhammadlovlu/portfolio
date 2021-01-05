@@ -2,50 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Pirata+One&family=Staatliches&family=Yellowtail&display=swap');
 /*google font end*/
 *{
-    box-sizing:border-box;
-} body, h1, h2, h3, h4, h5, h6, section, div, p, img, a, .section-one, .more-info {
-     margin:0px;
-     padding:0px;
- }   
+ 
  body{
     font-family:'Staatliches';
-    font-size:30px;
-    background-color: #e1e2e2;
 }
 h1{
     font-family: 'Audiowide';    
-    font-size:50px;
 }
 p{
     font-family:'Audiowide';
-    font-size: 22px;
 }
 .section-one{
-    margin: 20px auto 30px auto;
     width:950px;
     height:950px;
-    background-color: #faccfa;
-    
+    background-color: #faccfa;  
 }
 .more-info {
-    
-    text-align: justify;
     font-family: 'Staatliches';
 }
-.content-part {
-    width:50%;
-    float: left;
-}
-.image-part {
-    width:50%;
-    float: left;
-}
-.image-part img {
-    width: 50%;
-}
-#lovlu {
-    color: #F67280;
-}
-#slogan {
-    font-size:30px;
-}
+.content-part {}
+.image-part {}
+.image-part img {}
+#lovlu {}
+#slogan {}
