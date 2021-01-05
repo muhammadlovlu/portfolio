@@ -1,12 +1,13 @@
 /* google fonts start*/
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Pirata+One&family=Staatliches&family=Yellowtail&display=swap');
 /*google font end*/
-body{
-    margin: 10x auto 20px auto;
-}
-    body{
-    margin:0px;
-    padding:0px;
+*{
+    box-sizing:border-box;
+} body, h1, h2, h3, h4, h5, h6, section, div, p, img, a, .section-one, .more-info {
+     margin:0px;
+     padding:0px;
+ }   
+ body{
     font-family:'Staatliches';
     font-size:30px;
     background-color: #e1e2e2;
@@ -20,13 +21,14 @@ p{
     font-size: 22px;
 }
 .section-one{
-    width:100%;
-    padding:10px;
-    height:350px;
+    margin: 20px auto 30px auto;
+    width:950px;
+    height:950px;
+    background-color: #faccfa;
     
 }
 .more-info {
-    width:450px;
+    
     text-align: justify;
     font-family: 'Staatliches';
 }
