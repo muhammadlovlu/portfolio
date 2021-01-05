@@ -1,7 +1,7 @@
 /* google fonts start*/
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Pirata+One&family=Staatliches&family=Yellowtail&display=swap');
 /*google font end*/ 
-body h1, h2, h3, h4, h5, h6, p, div, a, ul, li, section, img, ol, header, footer, main{
+body h1, h2, h3, h4, h5, h6, p, div, a, ul, li, section, ol, header, footer, main{
     margin:0px;
     padding:0px;
 }
@@ -15,10 +15,4 @@ h1 {
 }
 p{
     font-family:'Audiowide';
-}
-.Full-container{}
-
-.logo{
-    width:60px;
-    height:60px;
 }
