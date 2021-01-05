@@ -1,18 +1,113 @@
-/* google fonts start*/
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Pirata+One&family=Staatliches&family=Yellowtail&display=swap');
-/*google font end*/ 
-body h1, h2, h3, h4, h5, h6, p, div, a, ul, li, section, ol, header, footer, main{
-    margin:0px;
-    padding:0px;
+p, a {
+ font-family: 'Staatliches';
 }
- body{
-     width:1080px;
-     height:950px;
-     background-color:pink;
-    font-family:'Staatliches';
-h1 {
-    font-family: 'Audiowide';    
+body, h1, h2, h3, h4, h5, h6, img, ul, li ,ol, div, p, span{
+      margin:0px;
+      padding:0px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Audiowide';
+  font-size: 52px;
 }
 p{
-    font-family:'Audiowide';
+  text-align: justify;
+}
+span{
+  margin: 5px;
+  color:white;
+  background-color: #A565F7;
+  border-bottom-right-radius: 10px;
+}
+.container{
+  width:1500px;
+  height: auto;
+  margin :0 auto 30px auto;
+}
+.logo{
+          padding:5px;
+          width:250px;
+          height:40px;
+        }
+.top-bar{
+  width: 100%;
+  height: 50px;
+}
+.header-left {
+  width:30%;
+  height: 50px;
+  float: left;
+}
+  .header-right{
+    width: 70%;
+    height: 50px;
+    float: right;
+  }
+  ul {
+    text-align: right;
+    height: 30px;
+    padding:10px;
+    padding-right: 50px;
+  }
+  ul li {
+    display: inline;
+    padding-right: 30px;
+  }
+  a{
+    padding-left: 10px;
+    text-align: center;
+    padding-right: 10px;
+    font-size: 22px;
+    text-decoration:none;
+    color:black;
+
+  }
+  a:hover{
+    background-color:black;
+    color:white;
+    font-size: 22px;
+    border-radius: 5px;
+  }
+  section{
+    width:100%;
+    height:650px;
+  }
+.section-right-1{
+  width:750px;
+  height:100%;
+  position: relative;
+  float:left;
+}
+.section-left-1{
+  width:750px;
+  height:100%;
+  float: left;
+}
+.section-right-2{
+  width:750px;
+  height:100%;
+  background-color:#21f121;
+  position: relative;
+  float:left;
+}
+.section-left-2{
+  width:750px;
+  height:100%;
+  background-color:pink;
+  float: left;
+}
+#profile{
+  padding:80px;
+  margin-left:60px;
+  border-radius: 40%;
+}
+#first-section-heading h1{
+  padding: 30px;
+  margin-top: 90px;
+}
+#first-section-heading p{
+  width: 80%;
+  padding: 20px;
+  text-align: justify;
+  font-size:22px;
 }
