@@ -1,27 +1,24 @@
 /* google fonts start*/
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Pirata+One&family=Staatliches&family=Yellowtail&display=swap');
-/*google font end*/
-*{
- 
- body{
-    font-family:'Staatliches';
+/*google font end*/ 
+body h1, h2, h3, h4, h5, h6, p, div, a, ul, li, section, img, ol, header, footer, main{
+    margin:0px;
+    padding:0px;
 }
-h1{
+ body{
+     width:1080px;
+     height:950px;
+     background-color:pink;
+    font-family:'Staatliches';
+h1 {
     font-family: 'Audiowide';    
 }
 p{
     font-family:'Audiowide';
 }
-.section-one{
-    width:950px;
-    height:950px;
-    background-color: #faccfa;  
+.Full-container{}
+
+.logo{
+    width:60px;
+    height:60px;
 }
-.more-info {
-    font-family: 'Staatliches';
-}
-.content-part {}
-.image-part {}
-.image-part img {}
-#lovlu {}
-#slogan {}
