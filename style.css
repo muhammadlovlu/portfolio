@@ -133,6 +133,7 @@ div h6 {
   margin-top: 150px;
   margin-left: 100px;
   float: left;
+  box-shadow: 0.5px 0px 20px #595FE1;
 }
 .third-section-image{
   border-radius:15px;
